@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+a {
+	text-decoration: none;
+}
+th {
+	border: 1px solid black;
+}
+
+/*
+	This hides all the navigation bar
+*/
+nav ul ul {
+	display: none;
+}
+
+/*
+	This gives the blocks showing when they are hover and will show the 
+	next list
+*/
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+/*
+	This centers the navigation bar
+*/
+nav{
+   	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+
+	background: #CCCCCC;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+  text-align: center;
+}
+
+/*
+	This controls the view of the main navigation bar
+*/
+nav ul {
+	margin: 0 auto;
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+/* 
+	this switches the vertical nav bar to a horizontal bar
+*/
+nav ul li {
+	float: left;
+	
+}
+/*
+	This controls the action when the mouse is above the main navigation bar
+*/
+nav ul li:hover {
+	background: #336699;
+}
+
+
+/*
+	This is formatting the boxes in the main navigation bar and set precedents
+	for the next few blocks as well
+*/
+nav ul li a {
+	display: block;
+	padding: 20px 40px;	
+	color: #000000;
+	font-family: 'Arial';
+	text-decoration: none;
+}
+
+/*
+	Configures the drop down menu when apparant and places it in the correct location
+*/
+nav ul ul {
+	background: #A0A0A4;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	border: 2px solid #336699;
+	z-index:1;
+}
+
+nav ul ul li {
+	float: none;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	position: relative;
+	
+}
+
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #D0D0D0;
+}
+
+nav ul ul li {
+	background:none;
+	color: white;
+}
+nav ul ul li a:hover {
+	background: #4b545f;
+	color: #AFA;
+}
+
+nav ul ul ul {
+	border: 2px solid #336699;
+	position: absolute;
+	left: 95%;
+	top: 0;
+	z-index: 2:
+}
+
+body{
+	  background-color: #c9e7f3;
+	  font-family: 'Roboto', serif;
+}
+
+li{
+    font-family: 'Roboto', serif;
+}

@@ -1,0 +1,21 @@
+/* CSS Document */
+a {
+	text-decoration: none;
+}
+h3 {
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+body{
+	  background-color: #c9e7f3;
+	  font-family: 'Roboto', serif;
+}
+
+.container{
+	margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
